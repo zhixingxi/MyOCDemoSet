@@ -27,7 +27,7 @@ static NSString *const cellId = @"cellId";
     [self.dataArray addObject:demo1];
     [self.view addSubview:self.tableView];
     
-    YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(10, 400, 60, 40)];
+    YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 25, 60, 40)];
     [[UIApplication sharedApplication].keyWindow addSubview:la];
 }
 
