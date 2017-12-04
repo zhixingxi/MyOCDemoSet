@@ -1,0 +1,14 @@
+//
+//  MasonryCell.h
+//  MyTestProject
+//
+//  Created by GT-iOS on 2017/12/4.
+//  Copyright © 2017年 GT-iOS. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MasonryCell : UITableViewCell
++ (instancetype)masonryCellWithTableView:(UITableView *)tableView;
+- (void)configCell;
+@end

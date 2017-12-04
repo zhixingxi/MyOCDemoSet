@@ -7,22 +7,70 @@
 //
 
 #import "ViewController.h"
+#import "YYFPSLabel.h"
 
-@interface ViewController ()
+static NSString *const demoTitle = @"demoTitle";
+static NSString *const desController = @"desController";
+static NSString *const cellId = @"cellId";
 
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *dataArray;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.dataArray = [NSMutableArray array];
+    NSDictionary *demo1 = @{demoTitle: @"Cell高度自适应(masonry)", desController: @"MasonryTableController"};
+    [self.dataArray addObject:demo1];
+    [self.view addSubview:self.tableView];
+    
+    YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(10, 400, 60, 40)];
+    [[UIApplication sharedApplication].keyWindow addSubview:la];
+}
+
+// MARK: - delegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _dataArray.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellId];
+    }
+    NSDictionary *dict = [_dataArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = [dict objectForKey:demoTitle];
+    return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSDictionary *dict = [_dataArray objectAtIndex:indexPath.row];
+    NSString *desClassName = [dict objectForKey:desController];
+    Class cls = NSClassFromString(desClassName);
+    UIViewController *vc = [[cls alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+// MARK: - getter
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+    }
+    return _tableView;
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 
