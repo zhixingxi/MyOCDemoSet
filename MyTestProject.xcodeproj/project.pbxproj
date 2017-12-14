@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026D55501FE1220600F4E35E /* abc.aac in Resources */ = {isa = PBXBuildFile; fileRef = 026D554F1FE1220600F4E35E /* abc.aac */; };
+		026D55541FE122A100F4E35E /* AVAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55531FE122A100F4E35E /* AVAudioController.m */; };
 		02F2BC2C1FD4F9B100D3CAF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC2B1FD4F9B100D3CAF3 /* AppDelegate.m */; };
 		02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC2E1FD4F9B100D3CAF3 /* ViewController.m */; };
 		02F2BC321FD4F9B100D3CAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F2BC301FD4F9B100D3CAF3 /* Main.storyboard */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		026D554F1FE1220600F4E35E /* abc.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.aac; sourceTree = "<group>"; };
+		026D55521FE122A100F4E35E /* AVAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioController.h; sourceTree = "<group>"; };
+		026D55531FE122A100F4E35E /* AVAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioController.m; sourceTree = "<group>"; };
 		02F2BC271FD4F9B100D3CAF3 /* MyTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F2BC2A1FD4F9B100D3CAF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02F2BC2B1FD4F9B100D3CAF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026D55511FE1228400F4E35E /* AVAudioPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				026D55521FE122A100F4E35E /* AVAudioController.h */,
+				026D55531FE122A100F4E35E /* AVAudioController.m */,
+			);
+			path = AVAudioPlayerDemo;
+			sourceTree = "<group>";
+		};
 		02F2BC1E1FD4F9B100D3CAF3 = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +88,9 @@
 		02F2BC291FD4F9B100D3CAF3 /* MyTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				026D554F1FE1220600F4E35E /* abc.aac */,
 				02F2BC401FD5119500D3CAF3 /* MasonryDemo */,
+				026D55511FE1228400F4E35E /* AVAudioPlayerDemo */,
 				02F2BC2A1FD4F9B100D3CAF3 /* AppDelegate.h */,
 				02F2BC2B1FD4F9B100D3CAF3 /* AppDelegate.m */,
 				02F2BC2D1FD4F9B100D3CAF3 /* ViewController.h */,
@@ -179,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026D55501FE1220600F4E35E /* abc.aac in Resources */,
 				02F2BC371FD4F9B100D3CAF3 /* LaunchScreen.storyboard in Resources */,
 				02F2BC341FD4F9B100D3CAF3 /* Assets.xcassets in Resources */,
 				02F2BC321FD4F9B100D3CAF3 /* Main.storyboard in Resources */,
@@ -245,6 +262,7 @@
 				02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */,
 				02F2BC3A1FD4F9B100D3CAF3 /* main.m in Sources */,
 				02F2BC2C1FD4F9B100D3CAF3 /* AppDelegate.m in Sources */,
+				026D55541FE122A100F4E35E /* AVAudioController.m in Sources */,
 				02F2BC491FD5139100D3CAF3 /* MasonryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

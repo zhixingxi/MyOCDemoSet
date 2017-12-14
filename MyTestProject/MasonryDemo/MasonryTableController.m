@@ -17,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.tableView reloadData];
-//    self.view.backgroundColor = [UIColor redColor];
+    
+    [self.tableView reloadData];    
 }
 
 - (void)didReceiveMemoryWarning {
