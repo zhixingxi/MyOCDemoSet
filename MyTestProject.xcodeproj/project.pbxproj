@@ -19,6 +19,7 @@
 		02F2BC491FD5139100D3CAF3 /* MasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC481FD5139100D3CAF3 /* MasonryCell.m */; };
 		02F2BC4C1FD51AED00D3CAF3 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC4A1FD51AED00D3CAF3 /* YYFPSLabel.m */; };
 		5E5C682735A687EC9D5EF8D9 /* libPods-MyTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06264E5E08938E0D8AEB42E4 /* libPods-MyTestProject.a */; };
+		E4BF3A722010DFBC00BBB3C8 /* TextViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BF3A712010DFBC00BBB3C8 /* TextViewDemoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		02F2BC4B1FD51AED00D3CAF3 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		06264E5E08938E0D8AEB42E4 /* libPods-MyTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F06A79B694C9AFB9D3F2C68 /* Pods-MyTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTestProject/Pods-MyTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		E4BF3A702010DFBC00BBB3C8 /* TextViewDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewDemoController.h; sourceTree = "<group>"; };
+		E4BF3A712010DFBC00BBB3C8 /* TextViewDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewDemoController.m; sourceTree = "<group>"; };
 		F3D9691744A1FDF565E0EE87 /* Pods-MyTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTestProject/Pods-MyTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +93,7 @@
 			children = (
 				026D554F1FE1220600F4E35E /* abc.aac */,
 				02F2BC401FD5119500D3CAF3 /* MasonryDemo */,
+				E4BF3A6F2010DF4B00BBB3C8 /* UITextViewDemo */,
 				026D55511FE1228400F4E35E /* AVAudioPlayerDemo */,
 				02F2BC2A1FD4F9B100D3CAF3 /* AppDelegate.h */,
 				02F2BC2B1FD4F9B100D3CAF3 /* AppDelegate.m */,
@@ -132,6 +136,15 @@
 				06264E5E08938E0D8AEB42E4 /* libPods-MyTestProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4BF3A6F2010DF4B00BBB3C8 /* UITextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF3A702010DFBC00BBB3C8 /* TextViewDemoController.h */,
+				E4BF3A712010DFBC00BBB3C8 /* TextViewDemoController.m */,
+			);
+			path = UITextViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +274,7 @@
 				02F2BC461FD511BE00D3CAF3 /* MasonryTableController.m in Sources */,
 				02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */,
 				02F2BC3A1FD4F9B100D3CAF3 /* main.m in Sources */,
+				E4BF3A722010DFBC00BBB3C8 /* TextViewDemoController.m in Sources */,
 				02F2BC2C1FD4F9B100D3CAF3 /* AppDelegate.m in Sources */,
 				026D55541FE122A100F4E35E /* AVAudioController.m in Sources */,
 				02F2BC491FD5139100D3CAF3 /* MasonryCell.m in Sources */,
