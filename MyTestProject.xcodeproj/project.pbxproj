@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023C5FD62011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC02011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.m */; };
+		023C5FD72011DE1600D12805 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC12011DE1600D12805 /* ColorPickerView.swift */; };
+		023C5FD82011DE1600D12805 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC22011DE1600D12805 /* KeyboardManager.swift */; };
+		023C5FD92011DE1600D12805 /* RichEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC32011DE1600D12805 /* RichEditorView.swift */; };
+		023C5FDA2011DE1600D12805 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC42011DE1600D12805 /* String+Extensions.swift */; };
+		023C5FDB2011DE1600D12805 /* FontsizePickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC52011DE1600D12805 /* FontsizePickView.swift */; };
+		023C5FDC2011DE1600D12805 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC62011DE1600D12805 /* UIColor+Extensions.swift */; };
+		023C5FDD2011DE1600D12805 /* RichEditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC72011DE1600D12805 /* RichEditorToolbar.swift */; };
+		023C5FDE2011DE1600D12805 /* RichEditorOptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC82011DE1600D12805 /* RichEditorOptionItem.swift */; };
+		023C5FDF2011DE1600D12805 /* UIView+Responder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FC92011DE1600D12805 /* UIView+Responder.swift */; };
+		023C5FE02011DE1600D12805 /* rich_editor_tests.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FCD2011DE1600D12805 /* rich_editor_tests.js */; };
+		023C5FE12011DE1600D12805 /* QLTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FCE2011DE1600D12805 /* QLTestController.m */; };
+		023C5FE22011DE1600D12805 /* assert.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FCF2011DE1600D12805 /* assert.js */; };
+		023C5FE32011DE1600D12805 /* rich_editor.js in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FD02011DE1600D12805 /* rich_editor.js */; };
+		023C5FE42011DE1600D12805 /* rich_editor_tests.html in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FD12011DE1600D12805 /* rich_editor_tests.html */; };
+		023C5FE52011DE1600D12805 /* rich_editor.html in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FD22011DE1600D12805 /* rich_editor.html */; };
+		023C5FE62011DE1600D12805 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FD32011DE1600D12805 /* style.css */; };
+		023C5FE72011DE1600D12805 /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FD52011DE1600D12805 /* normalize.css */; };
+		023C5FEA2011E04E00D12805 /* JGDetailIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FE82011E04E00D12805 /* JGDetailIntroView.m */; };
 		026D55501FE1220600F4E35E /* abc.aac in Resources */ = {isa = PBXBuildFile; fileRef = 026D554F1FE1220600F4E35E /* abc.aac */; };
 		026D55541FE122A100F4E35E /* AVAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55531FE122A100F4E35E /* AVAudioController.m */; };
 		02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BB2005B02D00D26227 /* MaskLayerController.m */; };
@@ -25,6 +44,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		023C5FC02011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CJWWebView+HackishAccessoryHiding.m"; sourceTree = "<group>"; };
+		023C5FC12011DE1600D12805 /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		023C5FC22011DE1600D12805 /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		023C5FC32011DE1600D12805 /* RichEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorView.swift; sourceTree = "<group>"; };
+		023C5FC42011DE1600D12805 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		023C5FC52011DE1600D12805 /* FontsizePickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsizePickView.swift; sourceTree = "<group>"; };
+		023C5FC62011DE1600D12805 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		023C5FC72011DE1600D12805 /* RichEditorToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorToolbar.swift; sourceTree = "<group>"; };
+		023C5FC82011DE1600D12805 /* RichEditorOptionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichEditorOptionItem.swift; sourceTree = "<group>"; };
+		023C5FC92011DE1600D12805 /* UIView+Responder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Responder.swift"; sourceTree = "<group>"; };
+		023C5FCA2011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CJWWebView+HackishAccessoryHiding.h"; sourceTree = "<group>"; };
+		023C5FCB2011DE1600D12805 /* Saisir-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Saisir-Bridging-Header.h"; sourceTree = "<group>"; };
+		023C5FCD2011DE1600D12805 /* rich_editor_tests.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rich_editor_tests.js; sourceTree = "<group>"; };
+		023C5FCE2011DE1600D12805 /* QLTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLTestController.m; sourceTree = "<group>"; };
+		023C5FCF2011DE1600D12805 /* assert.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = assert.js; sourceTree = "<group>"; };
+		023C5FD02011DE1600D12805 /* rich_editor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rich_editor.js; sourceTree = "<group>"; };
+		023C5FD12011DE1600D12805 /* rich_editor_tests.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rich_editor_tests.html; sourceTree = "<group>"; };
+		023C5FD22011DE1600D12805 /* rich_editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rich_editor.html; sourceTree = "<group>"; };
+		023C5FD32011DE1600D12805 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		023C5FD42011DE1600D12805 /* QLTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLTestController.h; sourceTree = "<group>"; };
+		023C5FD52011DE1600D12805 /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = normalize.css; sourceTree = "<group>"; };
+		023C5FE82011E04E00D12805 /* JGDetailIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDetailIntroView.m; sourceTree = "<group>"; };
+		023C5FE92011E04E00D12805 /* JGDetailIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDetailIntroView.h; sourceTree = "<group>"; };
 		026D554F1FE1220600F4E35E /* abc.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.aac; sourceTree = "<group>"; };
 		026D55521FE122A100F4E35E /* AVAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioController.h; sourceTree = "<group>"; };
 		026D55531FE122A100F4E35E /* AVAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioController.m; sourceTree = "<group>"; };
@@ -67,6 +109,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023C5FBD2011DDBD00D12805 /* RichTextView */ = {
+			isa = PBXGroup;
+			children = (
+				023C5FD42011DE1600D12805 /* QLTestController.h */,
+				023C5FCE2011DE1600D12805 /* QLTestController.m */,
+				023C5FE92011E04E00D12805 /* JGDetailIntroView.h */,
+				023C5FE82011E04E00D12805 /* JGDetailIntroView.m */,
+				023C5FBF2011DE1600D12805 /* RichTextView */,
+			);
+			path = RichTextView;
+			sourceTree = "<group>";
+		};
+		023C5FBF2011DE1600D12805 /* RichTextView */ = {
+			isa = PBXGroup;
+			children = (
+				023C5FC02011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.m */,
+				023C5FC12011DE1600D12805 /* ColorPickerView.swift */,
+				023C5FC22011DE1600D12805 /* KeyboardManager.swift */,
+				023C5FC32011DE1600D12805 /* RichEditorView.swift */,
+				023C5FC42011DE1600D12805 /* String+Extensions.swift */,
+				023C5FC52011DE1600D12805 /* FontsizePickView.swift */,
+				023C5FC62011DE1600D12805 /* UIColor+Extensions.swift */,
+				023C5FC72011DE1600D12805 /* RichEditorToolbar.swift */,
+				023C5FC82011DE1600D12805 /* RichEditorOptionItem.swift */,
+				023C5FC92011DE1600D12805 /* UIView+Responder.swift */,
+				023C5FCA2011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.h */,
+				023C5FCB2011DE1600D12805 /* Saisir-Bridging-Header.h */,
+				023C5FCC2011DE1600D12805 /* editor */,
+			);
+			path = RichTextView;
+			sourceTree = "<group>";
+		};
+		023C5FCC2011DE1600D12805 /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				023C5FCD2011DE1600D12805 /* rich_editor_tests.js */,
+				023C5FCF2011DE1600D12805 /* assert.js */,
+				023C5FD02011DE1600D12805 /* rich_editor.js */,
+				023C5FD12011DE1600D12805 /* rich_editor_tests.html */,
+				023C5FD22011DE1600D12805 /* rich_editor.html */,
+				023C5FD32011DE1600D12805 /* style.css */,
+				023C5FD52011DE1600D12805 /* normalize.css */,
+			);
+			path = editor;
+			sourceTree = "<group>";
+		};
 		026D55511FE1228400F4E35E /* AVAudioPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +196,7 @@
 		02F2BC291FD4F9B100D3CAF3 /* MyTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				023C5FBD2011DDBD00D12805 /* RichTextView */,
 				026D554F1FE1220600F4E35E /* abc.aac */,
 				02F2BC401FD5119500D3CAF3 /* MasonryDemo */,
 				E4BF3A6F2010DF4B00BBB3C8 /* UITextViewDemo */,
@@ -228,8 +317,15 @@
 			files = (
 				026D55501FE1220600F4E35E /* abc.aac in Resources */,
 				02F2BC371FD4F9B100D3CAF3 /* LaunchScreen.storyboard in Resources */,
+				023C5FE52011DE1600D12805 /* rich_editor.html in Resources */,
+				023C5FE72011DE1600D12805 /* normalize.css in Resources */,
+				023C5FE02011DE1600D12805 /* rich_editor_tests.js in Resources */,
 				02F2BC341FD4F9B100D3CAF3 /* Assets.xcassets in Resources */,
+				023C5FE22011DE1600D12805 /* assert.js in Resources */,
 				02F2BC321FD4F9B100D3CAF3 /* Main.storyboard in Resources */,
+				023C5FE62011DE1600D12805 /* style.css in Resources */,
+				023C5FE32011DE1600D12805 /* rich_editor.js in Resources */,
+				023C5FE42011DE1600D12805 /* rich_editor_tests.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,16 +384,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023C5FE12011DE1600D12805 /* QLTestController.m in Sources */,
+				023C5FEA2011E04E00D12805 /* JGDetailIntroView.m in Sources */,
 				02F2BC4C1FD51AED00D3CAF3 /* YYFPSLabel.m in Sources */,
 				02F2BC461FD511BE00D3CAF3 /* MasonryTableController.m in Sources */,
 				02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */,
+				023C5FD92011DE1600D12805 /* RichEditorView.swift in Sources */,
 				02F2BC3A1FD4F9B100D3CAF3 /* main.m in Sources */,
+				023C5FDB2011DE1600D12805 /* FontsizePickView.swift in Sources */,
 				E4BF3A722010DFBC00BBB3C8 /* TextViewDemoController.m in Sources */,
 				02F2BC2C1FD4F9B100D3CAF3 /* AppDelegate.m in Sources */,
+				023C5FD82011DE1600D12805 /* KeyboardManager.swift in Sources */,
+				023C5FDE2011DE1600D12805 /* RichEditorOptionItem.swift in Sources */,
+				023C5FD62011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.m in Sources */,
+				023C5FDD2011DE1600D12805 /* RichEditorToolbar.swift in Sources */,
 				02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */,
+				023C5FDA2011DE1600D12805 /* String+Extensions.swift in Sources */,
+				023C5FD72011DE1600D12805 /* ColorPickerView.swift in Sources */,
 				026D55541FE122A100F4E35E /* AVAudioController.m in Sources */,
 				02D246BF2005B98700D26227 /* GradientLabel.m in Sources */,
+				023C5FDC2011DE1600D12805 /* UIColor+Extensions.swift in Sources */,
 				02F2BC491FD5139100D3CAF3 /* MasonryCell.m in Sources */,
+				023C5FDF2011DE1600D12805 /* UIView+Responder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +548,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.MyTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gangtai/Desktop/MyTestProject/MyTestProject/RichEditor/SwiftMoudle/MyTestProject-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/Saisir-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,7 +567,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.MyTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gangtai/Desktop/MyTestProject/MyTestProject/RichEditor/SwiftMoudle/MyTestProject-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/Saisir-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

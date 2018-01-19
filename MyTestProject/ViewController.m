@@ -27,11 +27,13 @@ static NSString *const cellId = @"cellId";
     NSDictionary *demo2 = @{demoTitle: @"AVAudioPlayer播放本地视频流", desController: @"AVAudioController"};
     NSDictionary *demo3 = @{demoTitle: @"maskLayer", desController: @"MaskLayerController"};
     NSDictionary *demo4 = @{demoTitle: @"UITextView去除padding", desController: @"TextViewDemoController"};
+    NSDictionary *demo5 = @{demoTitle: @"图文混排", desController: @"QLTestController"};
     
     [self.dataArray addObject:demo1];
     [self.dataArray addObject:demo2];
     [self.dataArray addObject:demo3];
     [self.dataArray addObject:demo4];
+    [self.dataArray addObject:demo5];
     [self.view addSubview:self.tableView];
     
     YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 25, 60, 40)];
