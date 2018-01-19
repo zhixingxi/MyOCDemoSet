@@ -7,11 +7,11 @@
 //
 
 #import "QLTestController.h"
-#import "JGDetailIntroView.h"
+#import "ETL_RichView.h"
 #define SDScreenWidth [UIScreen mainScreen].bounds.size.width
 #define SDScreenHeight [UIScreen mainScreen].bounds.size.height
-@interface QLTestController ()<JGDetailIntroViewDelegate>
-@property (nonatomic, strong) JGDetailIntroView *detailIntroView;
+@interface QLTestController ()<ETL_RichViewDelegate>
+@property (nonatomic, strong) ETL_RichView *detailIntroView;
 @end
 
 @implementation QLTestController
@@ -31,9 +31,9 @@
 }
 
 // 图文混排详情
-- (JGDetailIntroView *)detailIntroView {
+- (ETL_RichView *)detailIntroView {
     if (!_detailIntroView) {
-        _detailIntroView = [[JGDetailIntroView alloc]initWithFrame:CGRectMake(0, 0, SDScreenWidth, 50)];
+        _detailIntroView = [[ETL_RichView alloc]initWithFrame:CGRectMake(0, 0, SDScreenWidth, 50)];
         _detailIntroView.delegate = self;
         _detailIntroView.lineLayer.hidden = YES;
     }

@@ -19,5 +19,529 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/ETL_RichTextView.swift"
+            timestampString = "538049699.286173"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/ETL_RichTextView.swift"
+            timestampString = "538049699.286512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.28676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "html"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.286823"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "457"
+            endingLineNumber = "457"
+            landmarkName = "updateHeight()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed and Exploded&gt; of MyTestProject.RichEditorView.html.setter : Swift.String"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.423143"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "457"
+                  endingLineNumber = "457"
+                  offsetFromSymbolStart = "1127">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed and Exploded&gt; of MyTestProject.RichEditorView.(performCommand in _E7F8D09225A038C2F2E3088F45B2E5FB)(Swift.String) -&gt; ()"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.42472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "457"
+                  endingLineNumber = "457"
+                  offsetFromSymbolStart = "1483">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed and Exploded&gt; of MyTestProject.RichEditorView.(performCommand in _E7F8D09225A038C2F2E3088F45B2E5FB)(Swift.String) -&gt; ()"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.42661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "457"
+                  endingLineNumber = "457"
+                  offsetFromSymbolStart = "2482">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed and Exploded&gt; of MyTestProject.RichEditorView.(performCommand in _E7F8D09225A038C2F2E3088F45B2E5FB)(Swift.String) -&gt; ()"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.428071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "457"
+                  endingLineNumber = "457"
+                  offsetFromSymbolStart = "3144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.286876"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "517"
+            endingLineNumber = "517"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.286926"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "521"
+            endingLineNumber = "521"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.2869771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "508"
+            endingLineNumber = "508"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.287027"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "434"
+            endingLineNumber = "434"
+            landmarkName = "isContentEditable"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.287074"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "440"
+            endingLineNumber = "440"
+            landmarkName = "isContentEditable"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTestProject.RichEditorView.isContentEditable.setter : Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.454651"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "440"
+                  endingLineNumber = "440"
+                  offsetFromSymbolStart = "262">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 : () in MyTestProject.RichEditorView.isContentEditable.materializeForSet : Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.4568141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "440"
+                  endingLineNumber = "440"
+                  offsetFromSymbolStart = "263">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/ETL_RichTextView.swift"
+            timestampString = "538049699.287125"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "updateHeight()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Owned To Guaranteed and Exploded&gt; of MyTestProject.ETL_RichTextView.html.setter : Swift.String"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/ETL_RichTextView.swift"
+                  timestampString = "538049699.460547"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "779">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Owned To Guaranteed, Arg[2] = Dead&gt; of MyTestProject.ETL_RichTextView.webView(__ObjC.UIWebView, shouldStartLoadWith: Foundation.URLRequest, navigationType: __C.UIWebViewNavigationType) -&gt; Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/ETL_RichTextView.swift"
+                  timestampString = "538049699.4627661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "1071">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Owned To Guaranteed, Arg[2] = Dead&gt; of MyTestProject.ETL_RichTextView.webView(__ObjC.UIWebView, shouldStartLoadWith: Foundation.URLRequest, navigationType: __C.UIWebViewNavigationType) -&gt; Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/ETL_RichTextView.swift"
+                  timestampString = "538049699.46532"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "3364">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Owned To Guaranteed, Arg[2] = Dead&gt; of MyTestProject.ETL_RichTextView.webView(__ObjC.UIWebView, shouldStartLoadWith: Foundation.URLRequest, navigationType: __C.UIWebViewNavigationType) -&gt; Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/ETL_RichTextView.swift"
+                  timestampString = "538049699.467569"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "3764">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/ETL_RichTextView.swift"
+            timestampString = "538049699.287357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "html"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/ETL_RichTextView.swift"
+            timestampString = "538049699.2875839"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "webView(_:shouldStartLoadWith:navigationType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Owned To Guaranteed, Arg[2] = Dead&gt; of MyTestProject.ETL_RichTextView.webView(__ObjC.UIWebView, shouldStartLoadWith: Foundation.URLRequest, navigationType: __C.UIWebViewNavigationType) -&gt; Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/ETL_RichTextView.swift"
+                  timestampString = "538049699.476913"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Owned To Guaranteed, Arg[2] = Dead&gt; of MyTestProject.ETL_RichTextView.webView(__ObjC.UIWebView, shouldStartLoadWith: Foundation.URLRequest, navigationType: __C.UIWebViewNavigationType) -&gt; Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/ETL_RichTextView.swift"
+                  timestampString = "538049699.479387"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/ETL_RichTextView.swift"
+            timestampString = "538049699.2878031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "webView(_:shouldStartLoadWith:navigationType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/ETL_RichTextView.swift"
+            timestampString = "538049699.288025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "webView(_:shouldStartLoadWith:navigationType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.288249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "524"
+            endingLineNumber = "524"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.2883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "527"
+            endingLineNumber = "527"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.288347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "530"
+            endingLineNumber = "530"
+            landmarkName = "performCommand(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.288393"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "380"
+            endingLineNumber = "380"
+            landmarkName = "webView(_:shouldStartLoadWith:navigationType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Owned To Guaranteed&gt; of MyTestProject.RichEditorView.webView(__ObjC.UIWebView, shouldStartLoadWith: Foundation.URLRequest, navigationType: __C.UIWebViewNavigationType) -&gt; Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.50956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "380"
+                  endingLineNumber = "380"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Dead, Arg[1] = Owned To Guaranteed&gt; of MyTestProject.RichEditorView.webView(__ObjC.UIWebView, shouldStartLoadWith: Foundation.URLRequest, navigationType: __C.UIWebViewNavigationType) -&gt; Swift.Bool"
+                  moduleName = "MyTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gangtai/Desktop/MyTestProject/MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+                  timestampString = "538049699.511157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "380"
+                  endingLineNumber = "380"
+                  offsetFromSymbolStart = "125">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTestProject/RichTextView/RichTextView/RichEditorView.swift"
+            timestampString = "538049699.288438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "357"
+            endingLineNumber = "357"
+            landmarkName = "runJS(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

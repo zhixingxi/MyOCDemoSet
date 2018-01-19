@@ -26,6 +26,8 @@
 		023C5FE62011DE1600D12805 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FD32011DE1600D12805 /* style.css */; };
 		023C5FE72011DE1600D12805 /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = 023C5FD52011DE1600D12805 /* normalize.css */; };
 		023C5FEA2011E04E00D12805 /* JGDetailIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FE82011E04E00D12805 /* JGDetailIntroView.m */; };
+		023C5FEF2011E84D00D12805 /* ETL_RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FEE2011E84D00D12805 /* ETL_RichTextView.swift */; };
+		023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FF12011EBA200D12805 /* ETL_RichView.m */; };
 		026D55501FE1220600F4E35E /* abc.aac in Resources */ = {isa = PBXBuildFile; fileRef = 026D554F1FE1220600F4E35E /* abc.aac */; };
 		026D55541FE122A100F4E35E /* AVAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55531FE122A100F4E35E /* AVAudioController.m */; };
 		02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BB2005B02D00D26227 /* MaskLayerController.m */; };
@@ -67,6 +69,9 @@
 		023C5FD52011DE1600D12805 /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = normalize.css; sourceTree = "<group>"; };
 		023C5FE82011E04E00D12805 /* JGDetailIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGDetailIntroView.m; sourceTree = "<group>"; };
 		023C5FE92011E04E00D12805 /* JGDetailIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGDetailIntroView.h; sourceTree = "<group>"; };
+		023C5FEE2011E84D00D12805 /* ETL_RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETL_RichTextView.swift; sourceTree = "<group>"; };
+		023C5FF02011EBA200D12805 /* ETL_RichView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETL_RichView.h; sourceTree = "<group>"; };
+		023C5FF12011EBA200D12805 /* ETL_RichView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETL_RichView.m; sourceTree = "<group>"; };
 		026D554F1FE1220600F4E35E /* abc.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.aac; sourceTree = "<group>"; };
 		026D55521FE122A100F4E35E /* AVAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioController.h; sourceTree = "<group>"; };
 		026D55531FE122A100F4E35E /* AVAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioController.m; sourceTree = "<group>"; };
@@ -112,10 +117,13 @@
 		023C5FBD2011DDBD00D12805 /* RichTextView */ = {
 			isa = PBXGroup;
 			children = (
+				023C5FEE2011E84D00D12805 /* ETL_RichTextView.swift */,
 				023C5FD42011DE1600D12805 /* QLTestController.h */,
 				023C5FCE2011DE1600D12805 /* QLTestController.m */,
 				023C5FE92011E04E00D12805 /* JGDetailIntroView.h */,
 				023C5FE82011E04E00D12805 /* JGDetailIntroView.m */,
+				023C5FF02011EBA200D12805 /* ETL_RichView.h */,
+				023C5FF12011EBA200D12805 /* ETL_RichView.m */,
 				023C5FBF2011DE1600D12805 /* RichTextView */,
 			);
 			path = RichTextView;
@@ -386,9 +394,11 @@
 			files = (
 				023C5FE12011DE1600D12805 /* QLTestController.m in Sources */,
 				023C5FEA2011E04E00D12805 /* JGDetailIntroView.m in Sources */,
+				023C5FEF2011E84D00D12805 /* ETL_RichTextView.swift in Sources */,
 				02F2BC4C1FD51AED00D3CAF3 /* YYFPSLabel.m in Sources */,
 				02F2BC461FD511BE00D3CAF3 /* MasonryTableController.m in Sources */,
 				02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */,
+				023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */,
 				023C5FD92011DE1600D12805 /* RichEditorView.swift in Sources */,
 				02F2BC3A1FD4F9B100D3CAF3 /* main.m in Sources */,
 				023C5FDB2011DE1600D12805 /* FontsizePickView.swift in Sources */,
