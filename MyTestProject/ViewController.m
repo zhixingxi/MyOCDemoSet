@@ -25,13 +25,23 @@ static NSString *const cellId = @"cellId";
     self.dataArray = [NSMutableArray array];
     NSDictionary *demo1 = @{demoTitle: @"Cell高度自适应(masonry)", desController: @"MasonryTableController"};
     NSDictionary *demo2 = @{demoTitle: @"AVAudioPlayer播放本地视频流", desController: @"AVAudioController"};
+    NSDictionary *demo3 = @{demoTitle: @"maskLayer", desController: @"MaskLayerController"};
     
     [self.dataArray addObject:demo1];
     [self.dataArray addObject:demo2];
+    [self.dataArray addObject:demo3];
     [self.view addSubview:self.tableView];
     
     YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 25, 60, 40)];
     [[UIApplication sharedApplication].keyWindow addSubview:la];
+    
+}
+
+- (void)handleString {
+    NSString *str = @"12万455万";
+    
+    NSLog(@"%ld", str.integerValue);
+    
 }
 
 // MARK: - delegate
