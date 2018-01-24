@@ -32,6 +32,8 @@
 		026D55541FE122A100F4E35E /* AVAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55531FE122A100F4E35E /* AVAudioController.m */; };
 		02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BB2005B02D00D26227 /* MaskLayerController.m */; };
 		02D246BF2005B98700D26227 /* GradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BD2005B98700D26227 /* GradientLabel.m */; };
+		02D4AAD420184C8C00FB1AEB /* ETL_CheckProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4AAD220184C8C00FB1AEB /* ETL_CheckProtocolView.m */; };
+		02D4AAD720184E7D00FB1AEB /* MQLProtocolTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4AAD620184E7D00FB1AEB /* MQLProtocolTestController.m */; };
 		02F2BC2C1FD4F9B100D3CAF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC2B1FD4F9B100D3CAF3 /* AppDelegate.m */; };
 		02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC2E1FD4F9B100D3CAF3 /* ViewController.m */; };
 		02F2BC321FD4F9B100D3CAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F2BC301FD4F9B100D3CAF3 /* Main.storyboard */; };
@@ -40,7 +42,6 @@
 		02F2BC3A1FD4F9B100D3CAF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC391FD4F9B100D3CAF3 /* main.m */; };
 		02F2BC461FD511BE00D3CAF3 /* MasonryTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC451FD511BE00D3CAF3 /* MasonryTableController.m */; };
 		02F2BC491FD5139100D3CAF3 /* MasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC481FD5139100D3CAF3 /* MasonryCell.m */; };
-		02F2BC4C1FD51AED00D3CAF3 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F2BC4A1FD51AED00D3CAF3 /* YYFPSLabel.m */; };
 		5E5C682735A687EC9D5EF8D9 /* libPods-MyTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06264E5E08938E0D8AEB42E4 /* libPods-MyTestProject.a */; };
 		E4BF3A722010DFBC00BBB3C8 /* TextViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BF3A712010DFBC00BBB3C8 /* TextViewDemoController.m */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,10 @@
 		02D246BB2005B02D00D26227 /* MaskLayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayerController.m; sourceTree = "<group>"; };
 		02D246BD2005B98700D26227 /* GradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLabel.m; sourceTree = "<group>"; };
 		02D246BE2005B98700D26227 /* GradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLabel.h; sourceTree = "<group>"; };
+		02D4AAD220184C8C00FB1AEB /* ETL_CheckProtocolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETL_CheckProtocolView.m; sourceTree = "<group>"; };
+		02D4AAD320184C8C00FB1AEB /* ETL_CheckProtocolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETL_CheckProtocolView.h; sourceTree = "<group>"; };
+		02D4AAD520184E7D00FB1AEB /* MQLProtocolTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQLProtocolTestController.h; sourceTree = "<group>"; };
+		02D4AAD620184E7D00FB1AEB /* MQLProtocolTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQLProtocolTestController.m; sourceTree = "<group>"; };
 		02F2BC271FD4F9B100D3CAF3 /* MyTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F2BC2A1FD4F9B100D3CAF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02F2BC2B1FD4F9B100D3CAF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,8 +98,6 @@
 		02F2BC451FD511BE00D3CAF3 /* MasonryTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryTableController.m; sourceTree = "<group>"; };
 		02F2BC471FD5139100D3CAF3 /* MasonryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryCell.h; sourceTree = "<group>"; };
 		02F2BC481FD5139100D3CAF3 /* MasonryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryCell.m; sourceTree = "<group>"; };
-		02F2BC4A1FD51AED00D3CAF3 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
-		02F2BC4B1FD51AED00D3CAF3 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		06264E5E08938E0D8AEB42E4 /* libPods-MyTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F06A79B694C9AFB9D3F2C68 /* Pods-MyTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTestProject/Pods-MyTestProject.release.xcconfig"; sourceTree = "<group>"; };
 		E4BF3A702010DFBC00BBB3C8 /* TextViewDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewDemoController.h; sourceTree = "<group>"; };
@@ -183,6 +186,17 @@
 			path = maskLayer;
 			sourceTree = "<group>";
 		};
+		02D4AAD120184C5E00FB1AEB /* YYTextProtocolView */ = {
+			isa = PBXGroup;
+			children = (
+				02D4AAD320184C8C00FB1AEB /* ETL_CheckProtocolView.h */,
+				02D4AAD220184C8C00FB1AEB /* ETL_CheckProtocolView.m */,
+				02D4AAD520184E7D00FB1AEB /* MQLProtocolTestController.h */,
+				02D4AAD620184E7D00FB1AEB /* MQLProtocolTestController.m */,
+			);
+			path = YYTextProtocolView;
+			sourceTree = "<group>";
+		};
 		02F2BC1E1FD4F9B100D3CAF3 = {
 			isa = PBXGroup;
 			children = (
@@ -204,8 +218,9 @@
 		02F2BC291FD4F9B100D3CAF3 /* MyTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				023C5FBD2011DDBD00D12805 /* RichTextView */,
+				02D4AAD120184C5E00FB1AEB /* YYTextProtocolView */,
 				026D554F1FE1220600F4E35E /* abc.aac */,
+				023C5FBD2011DDBD00D12805 /* RichTextView */,
 				02F2BC401FD5119500D3CAF3 /* MasonryDemo */,
 				E4BF3A6F2010DF4B00BBB3C8 /* UITextViewDemo */,
 				026D55511FE1228400F4E35E /* AVAudioPlayerDemo */,
@@ -214,8 +229,6 @@
 				02F2BC2B1FD4F9B100D3CAF3 /* AppDelegate.m */,
 				02F2BC2D1FD4F9B100D3CAF3 /* ViewController.h */,
 				02F2BC2E1FD4F9B100D3CAF3 /* ViewController.m */,
-				02F2BC4B1FD51AED00D3CAF3 /* YYFPSLabel.h */,
-				02F2BC4A1FD51AED00D3CAF3 /* YYFPSLabel.m */,
 				02F2BC301FD4F9B100D3CAF3 /* Main.storyboard */,
 				02F2BC331FD4F9B100D3CAF3 /* Assets.xcassets */,
 				02F2BC351FD4F9B100D3CAF3 /* LaunchScreen.storyboard */,
@@ -398,7 +411,6 @@
 				023C5FE12011DE1600D12805 /* QLTestController.m in Sources */,
 				023C5FEA2011E04E00D12805 /* JGDetailIntroView.m in Sources */,
 				023C5FEF2011E84D00D12805 /* ETL_RichTextView.swift in Sources */,
-				02F2BC4C1FD51AED00D3CAF3 /* YYFPSLabel.m in Sources */,
 				02F2BC461FD511BE00D3CAF3 /* MasonryTableController.m in Sources */,
 				02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */,
 				023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */,
@@ -410,6 +422,7 @@
 				023C5FD82011DE1600D12805 /* KeyboardManager.swift in Sources */,
 				023C5FDE2011DE1600D12805 /* RichEditorOptionItem.swift in Sources */,
 				023C5FD62011DE1600D12805 /* CJWWebView+HackishAccessoryHiding.m in Sources */,
+				02D4AAD720184E7D00FB1AEB /* MQLProtocolTestController.m in Sources */,
 				023C5FDD2011DE1600D12805 /* RichEditorToolbar.swift in Sources */,
 				02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */,
 				023C5FDA2011DE1600D12805 /* String+Extensions.swift in Sources */,
@@ -418,6 +431,7 @@
 				02D246BF2005B98700D26227 /* GradientLabel.m in Sources */,
 				023C5FDC2011DE1600D12805 /* UIColor+Extensions.swift in Sources */,
 				02F2BC491FD5139100D3CAF3 /* MasonryCell.m in Sources */,
+				02D4AAD420184C8C00FB1AEB /* ETL_CheckProtocolView.m in Sources */,
 				023C5FDF2011DE1600D12805 /* UIView+Responder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

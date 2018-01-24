@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "YYFPSLabel.h"
 
 static NSString *const demoTitle = @"demoTitle";
 static NSString *const desController = @"desController";
@@ -28,16 +27,18 @@ static NSString *const cellId = @"cellId";
     NSDictionary *demo3 = @{demoTitle: @"maskLayer", desController: @"MaskLayerController"};
     NSDictionary *demo4 = @{demoTitle: @"UITextView去除padding", desController: @"TextViewDemoController"};
     NSDictionary *demo5 = @{demoTitle: @"图文混排", desController: @"QLTestController"};
+     NSDictionary *demo6 = @{demoTitle: @"富文本之勾选协议", desController: @"MQLProtocolTestController"};
     
     [self.dataArray addObject:demo1];
     [self.dataArray addObject:demo2];
     [self.dataArray addObject:demo3];
     [self.dataArray addObject:demo4];
     [self.dataArray addObject:demo5];
+    [self.dataArray addObject:demo6];
     [self.view addSubview:self.tableView];
     
-    YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 25, 60, 40)];
-    [[UIApplication sharedApplication].keyWindow addSubview:la];
+//    YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 25, 60, 40)];
+//    [[UIApplication sharedApplication].keyWindow addSubview:la];
     
 }
 
