@@ -42,9 +42,11 @@ static NSString *const cellId = @"cellId";
 }
 
 - (void)handleString {
-    NSString *str = @"12万455万";
+    NSString *str = @"12行";
     
-    NSLog(@"%ld", str.integerValue);
+    NSRange ra = [str rangeOfString:@"万"];
+    NSLog(@"%@", NSStringFromRange(ra));
+    NSLog(@"%@", [str substringToIndex:(ra.location+1)]);
     
 }
 
