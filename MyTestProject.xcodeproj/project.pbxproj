@@ -218,8 +218,8 @@
 		02F2BC291FD4F9B100D3CAF3 /* MyTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				02D4AAD120184C5E00FB1AEB /* YYTextProtocolView */,
 				026D554F1FE1220600F4E35E /* abc.aac */,
+				02D4AAD120184C5E00FB1AEB /* YYTextProtocolView */,
 				023C5FBD2011DDBD00D12805 /* RichTextView */,
 				02F2BC401FD5119500D3CAF3 /* MasonryDemo */,
 				E4BF3A6F2010DF4B00BBB3C8 /* UITextViewDemo */,
