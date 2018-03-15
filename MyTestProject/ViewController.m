@@ -39,7 +39,27 @@ static NSString *const cellId = @"cellId";
     
 //    YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 25, 60, 40)];
 //    [[UIApplication sharedApplication].keyWindow addSubview:la];
+    NSString *first = @"12974086.9456";
+    NSString *second = @"12";
+    NSString *pro = [self handleDecimal:first :second];
+    NSLog(@"%.2f", [pro doubleValue]);
+    NSLog(@"%.2f", [self handleOnlyDecimal:first].doubleValue);
     
+}
+
+- (NSString *)handleDecimal:(NSString *)firstDeci :(NSString *)secondDeci {
+    NSDecimalNumber *firstNumber = [NSDecimalNumber decimalNumberWithString:firstDeci];
+    NSDecimalNumber *secondNumber = [NSDecimalNumber decimalNumberWithString:secondDeci];
+    NSDecimalNumber *product = [firstNumber decimalNumberByAdding:secondNumber];
+    return [product stringValue];
+}
+
+- (NSString * )handleOnlyDecimal:(NSString *)deci {
+    NSDecimalNumber *onli = [NSDecimalNumber decimalNumberWithString:deci];
+    NSDecimalNumber *d1 = [NSDecimalNumber decimalNumberWithString:@"1"];
+    NSDecimalNumberHandler *handle = [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundPlain scale:2 raiseOnExactness:NO raiseOnOverflow:NO raiseOnUnderflow:NO raiseOnDivideByZero:YES];
+    NSDecimalNumber* result = [onli decimalNumberByMultiplyingBy:d1 withBehavior:handle];
+    return [result stringValue];
 }
 
 - (void)handleString {
