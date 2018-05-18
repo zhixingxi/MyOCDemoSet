@@ -28,6 +28,8 @@ static NSString *const cellId = @"cellId";
     NSDictionary *demo4 = @{demoTitle: @"UITextView去除padding", desController: @"TextViewDemoController"};
     NSDictionary *demo5 = @{demoTitle: @"图文混排", desController: @"QLTestController"};
      NSDictionary *demo6 = @{demoTitle: @"富文本之勾选协议", desController: @"MQLProtocolTestController"};
+    NSDictionary *demo7 = @{demoTitle: @"AFN源码学习", desController: @"AFNLearnController"};
+     NSDictionary *demo8 = @{demoTitle: @"iOS中的锁", desController: @"LockViewController"};
     
     [self.dataArray addObject:demo1];
     [self.dataArray addObject:demo2];
@@ -35,6 +37,8 @@ static NSString *const cellId = @"cellId";
     [self.dataArray addObject:demo4];
     [self.dataArray addObject:demo5];
     [self.dataArray addObject:demo6];
+    [self.dataArray addObject:demo7];
+    [self.dataArray addObject:demo8];
     [self.view addSubview:self.tableView];
     
 //    YYFPSLabel *la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 25, 60, 40)];
@@ -45,6 +49,11 @@ static NSString *const cellId = @"cellId";
     NSLog(@"%.2f", [pro doubleValue]);
     NSLog(@"%.2f", [self handleOnlyDecimal:first].doubleValue);
     
+    UILabel *l = [UILabel new];
+    l.text = @"中华人民共和国";
+    l.font = [UIFont systemFontOfSize:30];
+    CGFloat h = l.font.pointSize;
+    NSLog(@"%.2f", h);
 }
 
 - (NSString *)handleDecimal:(NSString *)firstDeci :(NSString *)secondDeci {

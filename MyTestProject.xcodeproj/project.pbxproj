@@ -30,6 +30,8 @@
 		023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FF12011EBA200D12805 /* ETL_RichView.m */; };
 		026D55501FE1220600F4E35E /* abc.aac in Resources */ = {isa = PBXBuildFile; fileRef = 026D554F1FE1220600F4E35E /* abc.aac */; };
 		026D55541FE122A100F4E35E /* AVAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55531FE122A100F4E35E /* AVAudioController.m */; };
+		02895DC72069E13700F04BBE /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02895DC62069E13700F04BBE /* LockViewController.m */; };
+		02CD3440205A4DE70067792E /* AFNLearnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CD343F205A4DE70067792E /* AFNLearnController.m */; };
 		02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BB2005B02D00D26227 /* MaskLayerController.m */; };
 		02D246BF2005B98700D26227 /* GradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BD2005B98700D26227 /* GradientLabel.m */; };
 		02D4AAD420184C8C00FB1AEB /* ETL_CheckProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D4AAD220184C8C00FB1AEB /* ETL_CheckProtocolView.m */; };
@@ -76,6 +78,10 @@
 		026D554F1FE1220600F4E35E /* abc.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.aac; sourceTree = "<group>"; };
 		026D55521FE122A100F4E35E /* AVAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioController.h; sourceTree = "<group>"; };
 		026D55531FE122A100F4E35E /* AVAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioController.m; sourceTree = "<group>"; };
+		02895DC52069E13700F04BBE /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		02895DC62069E13700F04BBE /* LockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		02CD343E205A4DE70067792E /* AFNLearnController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNLearnController.h; sourceTree = "<group>"; };
+		02CD343F205A4DE70067792E /* AFNLearnController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNLearnController.m; sourceTree = "<group>"; };
 		02D246BA2005B02D00D26227 /* MaskLayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayerController.h; sourceTree = "<group>"; };
 		02D246BB2005B02D00D26227 /* MaskLayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayerController.m; sourceTree = "<group>"; };
 		02D246BD2005B98700D26227 /* GradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLabel.m; sourceTree = "<group>"; };
@@ -175,6 +181,24 @@
 			path = AVAudioPlayerDemo;
 			sourceTree = "<group>";
 		};
+		02895DC42069E11E00F04BBE /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				02895DC52069E13700F04BBE /* LockViewController.h */,
+				02895DC62069E13700F04BBE /* LockViewController.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		02CD343D205A4DA80067792E /* AFNetworkingLearn */ = {
+			isa = PBXGroup;
+			children = (
+				02CD343E205A4DE70067792E /* AFNLearnController.h */,
+				02CD343F205A4DE70067792E /* AFNLearnController.m */,
+			);
+			path = AFNetworkingLearn;
+			sourceTree = "<group>";
+		};
 		02D246B92005B00900D26227 /* maskLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +242,8 @@
 		02F2BC291FD4F9B100D3CAF3 /* MyTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				02895DC42069E11E00F04BBE /* Lock */,
+				02CD343D205A4DA80067792E /* AFNetworkingLearn */,
 				026D554F1FE1220600F4E35E /* abc.aac */,
 				02D4AAD120184C5E00FB1AEB /* YYTextProtocolView */,
 				023C5FBD2011DDBD00D12805 /* RichTextView */,
@@ -412,6 +438,7 @@
 				023C5FEA2011E04E00D12805 /* JGDetailIntroView.m in Sources */,
 				023C5FEF2011E84D00D12805 /* ETL_RichTextView.swift in Sources */,
 				02F2BC461FD511BE00D3CAF3 /* MasonryTableController.m in Sources */,
+				02895DC72069E13700F04BBE /* LockViewController.m in Sources */,
 				02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */,
 				023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */,
 				023C5FD92011DE1600D12805 /* RichEditorView.swift in Sources */,
@@ -426,6 +453,7 @@
 				023C5FDD2011DE1600D12805 /* RichEditorToolbar.swift in Sources */,
 				02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */,
 				023C5FDA2011DE1600D12805 /* String+Extensions.swift in Sources */,
+				02CD3440205A4DE70067792E /* AFNLearnController.m in Sources */,
 				023C5FD72011DE1600D12805 /* ColorPickerView.swift in Sources */,
 				026D55541FE122A100F4E35E /* AVAudioController.m in Sources */,
 				02D246BF2005B98700D26227 /* GradientLabel.m in Sources */,
