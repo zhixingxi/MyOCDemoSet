@@ -30,6 +30,8 @@
 		023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FF12011EBA200D12805 /* ETL_RichView.m */; };
 		026D55541FE122A100F4E35E /* AVAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55531FE122A100F4E35E /* AVAudioController.m */; };
 		02895DC72069E13700F04BBE /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02895DC62069E13700F04BBE /* LockViewController.m */; };
+		029884D020B7A4BF007339D5 /* TestNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 029884CF20B7A4BF007339D5 /* TestNavigationBar.m */; };
+		029884D620B7ACE1007339D5 /* UINavigationBar+MQLFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 029884D520B7ACE1007339D5 /* UINavigationBar+MQLFixSpace.m */; };
 		02CD3440205A4DE70067792E /* AFNLearnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CD343F205A4DE70067792E /* AFNLearnController.m */; };
 		02D246BC2005B02D00D26227 /* MaskLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BB2005B02D00D26227 /* MaskLayerController.m */; };
 		02D246BF2005B98700D26227 /* GradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D246BD2005B98700D26227 /* GradientLabel.m */; };
@@ -78,6 +80,10 @@
 		026D55531FE122A100F4E35E /* AVAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioController.m; sourceTree = "<group>"; };
 		02895DC52069E13700F04BBE /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
 		02895DC62069E13700F04BBE /* LockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		029884CE20B7A4BF007339D5 /* TestNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNavigationBar.h; sourceTree = "<group>"; };
+		029884CF20B7A4BF007339D5 /* TestNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavigationBar.m; sourceTree = "<group>"; };
+		029884D420B7ACE1007339D5 /* UINavigationBar+MQLFixSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MQLFixSpace.h"; sourceTree = "<group>"; };
+		029884D520B7ACE1007339D5 /* UINavigationBar+MQLFixSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MQLFixSpace.m"; sourceTree = "<group>"; };
 		02CD343E205A4DE70067792E /* AFNLearnController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNLearnController.h; sourceTree = "<group>"; };
 		02CD343F205A4DE70067792E /* AFNLearnController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNLearnController.m; sourceTree = "<group>"; };
 		02D246BA2005B02D00D26227 /* MaskLayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayerController.h; sourceTree = "<group>"; };
@@ -188,6 +194,17 @@
 			path = Lock;
 			sourceTree = "<group>";
 		};
+		029884CD20B7A497007339D5 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				029884CE20B7A4BF007339D5 /* TestNavigationBar.h */,
+				029884CF20B7A4BF007339D5 /* TestNavigationBar.m */,
+				029884D420B7ACE1007339D5 /* UINavigationBar+MQLFixSpace.h */,
+				029884D520B7ACE1007339D5 /* UINavigationBar+MQLFixSpace.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
 		02CD343D205A4DA80067792E /* AFNetworkingLearn */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +257,7 @@
 		02F2BC291FD4F9B100D3CAF3 /* MyTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				029884CD20B7A497007339D5 /* NavigationBar */,
 				02895DC42069E11E00F04BBE /* Lock */,
 				02CD343D205A4DA80067792E /* AFNetworkingLearn */,
 				02D4AAD120184C5E00FB1AEB /* YYTextProtocolView */,
@@ -437,6 +455,8 @@
 				02895DC72069E13700F04BBE /* LockViewController.m in Sources */,
 				02F2BC2F1FD4F9B100D3CAF3 /* ViewController.m in Sources */,
 				023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */,
+				029884D020B7A4BF007339D5 /* TestNavigationBar.m in Sources */,
+				029884D620B7ACE1007339D5 /* UINavigationBar+MQLFixSpace.m in Sources */,
 				023C5FD92011DE1600D12805 /* RichEditorView.swift in Sources */,
 				02F2BC3A1FD4F9B100D3CAF3 /* main.m in Sources */,
 				023C5FDB2011DE1600D12805 /* FontsizePickView.swift in Sources */,
@@ -530,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -579,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -595,7 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 883RB2PT5K;
 				INFOPLIST_FILE = MyTestProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.MyTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -614,7 +634,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 883RB2PT5K;
 				INFOPLIST_FILE = MyTestProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.MyTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
