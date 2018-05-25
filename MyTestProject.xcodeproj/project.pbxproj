@@ -28,7 +28,6 @@
 		023C5FEA2011E04E00D12805 /* JGDetailIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FE82011E04E00D12805 /* JGDetailIntroView.m */; };
 		023C5FEF2011E84D00D12805 /* ETL_RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FEE2011E84D00D12805 /* ETL_RichTextView.swift */; };
 		023C5FF22011EBA200D12805 /* ETL_RichView.m in Sources */ = {isa = PBXBuildFile; fileRef = 023C5FF12011EBA200D12805 /* ETL_RichView.m */; };
-		026D55501FE1220600F4E35E /* abc.aac in Resources */ = {isa = PBXBuildFile; fileRef = 026D554F1FE1220600F4E35E /* abc.aac */; };
 		026D55541FE122A100F4E35E /* AVAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026D55531FE122A100F4E35E /* AVAudioController.m */; };
 		02895DC72069E13700F04BBE /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02895DC62069E13700F04BBE /* LockViewController.m */; };
 		02CD3440205A4DE70067792E /* AFNLearnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CD343F205A4DE70067792E /* AFNLearnController.m */; };
@@ -75,7 +74,6 @@
 		023C5FEE2011E84D00D12805 /* ETL_RichTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETL_RichTextView.swift; sourceTree = "<group>"; };
 		023C5FF02011EBA200D12805 /* ETL_RichView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETL_RichView.h; sourceTree = "<group>"; };
 		023C5FF12011EBA200D12805 /* ETL_RichView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETL_RichView.m; sourceTree = "<group>"; };
-		026D554F1FE1220600F4E35E /* abc.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.aac; sourceTree = "<group>"; };
 		026D55521FE122A100F4E35E /* AVAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioController.h; sourceTree = "<group>"; };
 		026D55531FE122A100F4E35E /* AVAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioController.m; sourceTree = "<group>"; };
 		02895DC52069E13700F04BBE /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
@@ -244,7 +242,6 @@
 			children = (
 				02895DC42069E11E00F04BBE /* Lock */,
 				02CD343D205A4DA80067792E /* AFNetworkingLearn */,
-				026D554F1FE1220600F4E35E /* abc.aac */,
 				02D4AAD120184C5E00FB1AEB /* YYTextProtocolView */,
 				023C5FBD2011DDBD00D12805 /* RichTextView */,
 				02F2BC401FD5119500D3CAF3 /* MasonryDemo */,
@@ -362,7 +359,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				026D55501FE1220600F4E35E /* abc.aac in Resources */,
 				02F2BC371FD4F9B100D3CAF3 /* LaunchScreen.storyboard in Resources */,
 				023C5FE52011DE1600D12805 /* rich_editor.html in Resources */,
 				023C5FE72011DE1600D12805 /* normalize.css in Resources */,
